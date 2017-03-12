@@ -110,7 +110,7 @@ RUN \
  && ./configure \
     --lua-suffix=jit \
     --with-lua=$OPENRESTY_PREFIX/luajit \
-    --with-lua-include=$OPENRESTY_PREFIX/luajit/include/luajit-2.1
+    --with-lua-include=$OPENRESTY_PREFIX/luajit/include/luajit-2.1 \
  && make build && make install \
  && echo "==> Finishing..." \
  && echo "==> Installing kong dependencies..." \
