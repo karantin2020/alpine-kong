@@ -1,6 +1,6 @@
 FROM openresty/openresty:1.11.2.2-alpine
 
-ENV LUAROCKS_VERSION=2.4.2 \
+ENV LUAROCKS_VERSION=2.4.1 \
  KONG_VERSION=0.10.0 \
  SERF_VERSION=0.8.1 \
  OPENRESTY_PREFIX=/usr/local/openresty
